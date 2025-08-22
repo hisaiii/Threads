@@ -14,4 +14,3 @@ router.post('/uploadQuizResult', uploadCertificateToIPFS);
 router.post('/profile',multerUpload, uploadUserProfileToIPFS);
 
 export default router;
- 
