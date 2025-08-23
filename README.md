@@ -70,3 +70,127 @@ We also solved another pain point:
 
 ---
 
+## 🚀 Getting Started (Local Setup)
+
+### 📁 Clone the Repository
+
+```bash
+git clone https://github.com/ketandayke/skillbridgedapp.git
+cd skillbridgedapp
+```
+
+### 🏠 Frontend Setup
+
+```bash
+cd skillbridge-frontend
+npm install
+npm run dev
+```
+
+Runs at: [http://localhost:5173](http://localhost:5173)
+
+### 🖥️ Backend Setup
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Runs at: [http://localhost:5000](http://localhost:5000)
+
+### 📂 Create a `.env` in /backend:
+
+```env
+PINATA_API_KEY=your-pinata-key
+PINATA_SECRET_KEY=your-pinata-secret
+OPENAI_API_KEY=your-openai-key
+CHROMA_DB_URL=http://localhost:8000
+```
+
+---
+
+## 👉 Smart Contracts
+
+Located in `/contracts`:
+
+* `SkillBridgeToken.sol` — ERC-20 token for platform (SKL)
+* `SkillBridgeNFT.sol` — ERC-721 NFT for certificates
+* `SkillBridgeMain.sol` — Controls user state, course access, test scores
+
+### 🔧 Compile & Deploy
+
+```bash
+cd contracts
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network sepolia
+```
+
+Update frontend contract addresses in `Web3Context.jsx`
+
+---
+
+## 🧠 AI-Powered Course Chatbot
+
+* Instructor clicks **Ingest Vector** to upload course content
+* Learner can instantly chat via **CourseAIChat**
+* Uses OpenAI + ChromaDB vector DB for semantic understanding
+
+---
+
+## 📅 NFT Certificate Flow
+
+1. Learner finishes course and passes quiz
+2. Result sent to backend
+3. Backend:
+
+   * Generates certificate image via `node-html-to-image`
+   * Uploads image + metadata to IPFS
+   * Mints NFT via ERC-721 smart contract
+
+---
+
+## 🔹 Environment Variables
+
+**Frontend:** No secrets required
+
+**Backend .env:**
+
+```env
+PINATA_API_KEY=...
+PINATA_SECRET_KEY=...
+OPENAI_API_KEY=...
+CHROMA_DB_URL=http://localhost:8000
+```
+
+---
+
+## 📷 Screenshots
+
+![Home](https://raw.githubusercontent.com/ketandayke/skillbridgedapp/main/public/frontend_home.png)
+
+More coming soon: Course UI, Quiz UI, Certificate Viewer, AI Chat
+
+---
+
+## ✨ Unique Selling Points
+
+* 💼 Learn & Earn: token-based incentives
+* 🎓 Verifiable NFT credentials
+* 🧠 AI chatbots per course
+* 📊 IPFS-powered content
+* ⚡ Gas-optimized, modular contracts
+* ⚖️ Transparent access logic with Solidity
+
+---
+
+## 💍 Acknowledgements
+
+* [OpenAI](https://openai.com)
+* [Pinata IPFS](https://pinata.cloud)
+* [ChromaDB](https://www.trychroma.com)
+* [Hardhat](https://hardhat.org)
+* [Render](https://render.com)
+* [Vercel](https://vercel.com)
+
+---
