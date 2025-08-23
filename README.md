@@ -37,3 +37,36 @@ We also solved another pain point:
 
 ---
 
+## ✨ Key Features / USPs
+
+* 🚀 Token-based motivation: Earn tokens by passing entry tests
+* 📅 Token-gated course access: Use tokens to unlock premium content
+* 🧠 AI tutors per course: Powered by OpenAI + ChromaDB
+* 🎓 NFT certificates: Public, tamper-proof, and truly owned by learners
+* 📊 IPFS-based storage: Decentralized course data and metadata
+* 🔐 Smart contract-based access control
+
+---
+
+## 🌐 Live Demo
+
+* 🌍 Frontend: [https://skillbridgedapp-iucb.vercel.app/](https://skillbridgedapp-iucb.vercel.app/)
+* 🛠️ Backend API: [https://skillbridgedapp.onrender.com](https://skillbridgedapp.onrender.com)
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer          | Technologies Used                              |
+| -------------- | ---------------------------------------------- |
+| **Frontend**   | React, Vite, TailwindCSS, React Router         |
+| **Backend**    | Node.js, Express, Multer, Pinata SDK, OpenAI   |
+| **AI Layer**   | OpenAI API, ChromaDB vector database           |
+| **Blockchain** | Solidity (Hardhat), Ethers.js                  |
+| **Storage**    | IPFS via Pinata                                |
+| **Contracts**  | ERC-20 (SKL Token), ERC-721 (Certificate NFTs) |
+| **Wallet**     | MetaMask                                       |
+| **Deploy**     | Vercel (Frontend), Render (Backend)            |
+
+---
+
