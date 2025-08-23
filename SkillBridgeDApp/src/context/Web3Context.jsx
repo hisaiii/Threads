@@ -25,7 +25,7 @@ const CONTRACT_ADDRESSES = {
 //   SKILLBRIDGE_NFT: "0xdb8fDCD9620FF27E6583c01eA61B6e922A434F73",   
 //   SKILLBRIDGE_MAIN: "0xd54173105ff58C0Da717C43191Ef75A2e36f897F"
 // };
-
+ 
 const Web3Context = createContext();
 
 export const useWeb3 = () => {
