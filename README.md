@@ -15,3 +15,25 @@
 * Can be easily edited/faked (e.g., in Photoshop)
 * No public verification mechanism
 * No ownership or on-chain record
+
+
+**We built SkillBridge to fix this.**
+
+**Web3 NFT Certificates:**
+
+* Minted on-chain to your wallet
+* Publicly verifiable
+* Tamper-proof and immutable
+
+We also solved another pain point:
+
+> "During online courses, whenever I had doubts, I commented under the video. Often, no one responded or it took days. It felt disconnected."
+
+**So we added:**
+
+* 🧠 **AI-powered chatbots per course** trained on that course's content
+* ⏱ Instant doubt solving
+* 📊 No waiting for instructors
+
+---
+
