@@ -194,3 +194,7 @@ More coming soon: Course UI, Quiz UI, Certificate Viewer, AI Chat
 * [Vercel](https://vercel.com)
 
 ---
+
+## 👏 Thank You!
+
+We believe SkillBridge brings ownership, transparency, and real-world value to online learning. Let's redefine education with Web3!
